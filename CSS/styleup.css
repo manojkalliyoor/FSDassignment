@@ -1,0 +1,147 @@
+.bg{
+    background:url(../img/sunset.jpg);
+    background-size: cover;
+    
+}
+.navbar{
+    width:100%;
+}
+.search{
+    margin-right:100px;
+}
+.loginform{
+    margin-left:100px;
+    position:relative;
+   
+}
+.logo{
+    width:60px;
+    height:35px;
+    float:left;
+}
+.ft{
+    text-align: center;
+    color:white;
+}
+.icon{
+    margin-left:50px;
+    color:white;
+}
+.icon i{
+   width:15px;
+   height:15px;
+} 
+.textal{
+    text-align: center;
+}
+.body{
+    background:url(../img/signup.jpg);
+    background-size: cover;
+    padding: 150px;
+}
+.color{
+    background-color: white;
+    border:0px;
+    box-shadow: 5px solid;
+}
+.bttn{
+    margin-left:200px;
+}
+.algn{
+    margin-left:100px;
+}
+.head-c,.head-p,h6{
+    text-align: center;
+    color:black;
+    line-height: 20px;
+
+}
+/* h6 i{
+    color:green;
+    
+} */
+.box{
+    background-color: gray;
+}
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+  .glink{
+      text-decoration: none;
+  }
+  span{
+      color:red;
+  }
+  .showButton{
+      position: absolute;
+      right: 165px;
+      top: 30.5%;
+      transform:translate(-50%);
+      cursor:pointer;
+      display: none;
+  }
+  .indicator{
+      height:10px;
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+      margin:10px 0;
+      margin-left: 14px;
+      display:none;
+    }
+    .indicator span{
+      width: 95%;
+      height:100%;
+      background:lightgrey;
+      border-radius:5px;
+      right:100px;
+      /* display: none; */
+  }
+    form .indicator span.medium{
+      margin: 0 3px;
+    }
+    form .indicator span::before{ 
+        content:'';
+        position:absolute;
+        top: 0;
+        left: 0;
+        width:100;
+        height:100;
+        background:red;
+        border-radius:5px;
+    }  
+   form .indicator span.active.weak::before{
+    background-color: #ff4757;
+}
+form .indicator span.active.medium::before{
+    background-color:orange;
+}
+form .indicator span.active.strong::before{
+    background-color: #23ad5c;
+}
+.text2{
+    margin-left:200px;
+    font-size:20px;
+    font-weight: 500;
+    margin-bottom: -10px;
+    display: none;
+}
+.text1{
+    margin-left:200px;
+}
+.text1 .weak{
+    color:#ff4757;
+
+}
+.text1 .medium{
+    color:orange;
+
+}
+.text1 .strong{
+    color:#23ad5c;
+
+}  
